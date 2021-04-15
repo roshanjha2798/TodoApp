@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to bottom right, #e63946, #e76f51, #ffadad);
+  min-height: 100vh;
+}
+
+.section_header {
+  background-color: #fff1e6;
+  width: 70vw;
+  height: 90vh;
+  text-align: center;
+  margin: 50px auto;
+  box-shadow: 3px 3px 2px red;
+  overflow-y: scroll;
+}
+
+.section_header header {
+  display: flex;
+  justify-content: center;
+}
+
+.section_header header img {
+  margin-top: 2rem;
+}
+
+.section_header h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-left: 1.1rem;
+  letter-spacing: 0.4rem;
+  color: #222;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section_input {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.section_input .input {
+  background-color: #fff1e6;
+  font-size: 1rem;
+  border-radius: 100px;
+  margin-left: 1rem;
+  outline: none;
+  padding-left: 0.7rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 40%;
+  border: 2px solid black;
+}
+
+.section_input .btn {
+  background-color: #3a86ff;
+  outline: none;
+  width: 65px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.7rem;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 0.4rem;
+  margin-top: -0.5rem;
+}
+
+.stylelist {
+  list-style-type: none;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  text-align: start;
+  margin-left: 16rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: blue;
+}
+
+i {
+  border: 2px solid white;
+  font-size: 1.2rem;
+  color: black;
+  display: inline;
+  cursor: pointer;
+}
+
+.icon {
+  color: red;
+  justify-self: flex-end;
+  position: fixed;
+}
+
+.edit {
+  margin-left: 225px;
+  color: #222;
+  cursor: pointer;
+  font-weight: 200;
+  color: red;
+}
+
+li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 600;
+}
+
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  border: none;
+  border-top: medium double #333;
+  color: #333;
+  text-align: center;
+}
+hr:after {
+  content: "§";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background: white;
+}
